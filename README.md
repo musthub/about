@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiGiT — À Propos & Structure</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 max-w-4xl mx-auto space-y-8">
+
+    <!-- Header Section -->
+    <header class="text-center space-y-3 border-b border-gray-800 pb-6">
+        <div class="inline-block px-3 py-1 bg-amber-500/10 border border-amber-500/30 text-amber-400 rounded-full text-xs font-semibold tracking-wide">
+            À Propos v1.0
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
+            📱 DiGiT — <span class="text-amber-400">Espace Culturel des Pionniers</span>
+        </h1>
+        <p class="text-gray-400 text-sm md:text-base max-w-xl mx-auto">
+            Bâtir l'avenir de la culture avec l'intelligence humaine & artificielle au sein de l'écosystème Pi Network.
+        </p>
+    </header>
+
+    <!-- SECTION 1: Architecture des 5 Écrans -->
+    <section class="space-y-6">
+        <h2 class="text-xl font-bold text-white flex items-center gap-2 border-l-4 border-amber-400 pl-3">
+            🏛️ Architecture & Écrans Principaux
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- 1. Écran d'Accueil -->
+            <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-5 hover:border-amber-500/40 transition">
+                <h3 class="text-amber-400 font-semibold text-lg flex items-center gap-2 mb-2">
+                    1. 🏠 Écran d'Accueil (Dashboard)
+                </h3>
+                <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                    <li><strong>Bannière d'accueil :</strong> Message inspirant sur l'avenir de la culture.</li>
+                    <li><strong>Sélecteur de Langue (i18n) :</strong> Basculement rapide (FR, EN, ES, ZH, AR) avec support RTL automatique.</li>
+                    <li><strong>Fil d'actualité :</strong> Cartes de publications (écrits, arts, musique) avec notation à 5 étoiles et partage.</li>
+                </ul>
+            </div>
+
+            <!-- 2. Espace Culture & Création -->
+            <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-5 hover:border-amber-500/40 transition">
+                <h3 class="text-amber-400 font-semibold text-lg flex items-center gap-2 mb-2">
+                    2. 📚 Espace Culture & Création
+                </h3>
+                <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                    <li><strong>Livres & Écrits :</strong> Romans, Poésie, Essais, Théâtre.</li>
+                    <li><strong>Arts Visuels :</strong> Peinture, Photo, Art Digital, Sculpture.</li>
+                    <li><strong>Musique :</strong> Compositions, Chansons, Instruments, Découvertes.</li>
+                    <li><strong>Sport & Bien-être :</strong> Actualités, Conseils, Défis de Club.</li>
+                </ul>
+            </div>
+
+            <!-- 3. Salon IA DiGiT -->
+            <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-5 hover:border-amber-500/40 transition md:col-span-2">
+                <h3 class="text-amber-400 font-semibold text-lg flex items-center gap-2 mb-2">
+                    3. 🤖 Salon IA DiGiT (Assistant "Diamond Star")
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-300">
+                    <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
+                        <strong class="text-white block mb-1">Interactions & Expertise :</strong>
+                        Réponses guidées par le Livre Blanc du projet.
+                    </div>
+                    <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
+                        <strong class="text-white block mb-1">Texte Magnifié :</strong>
+                        Assistant de réécriture poétique et stylistique.
+                    </div>
+                    <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
+                        <strong class="text-white block mb-1">Création Visuelle :</strong>
+                        Génération d'illustrations et aperçu d'œuvres numériques.
+                    </div>
+                    <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
+                        <strong class="text-white block mb-1">Orientation Pi Network :</strong>
+                        Redirection sécurisée vers l'app Pi pour Wallet & compte.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. L'Agora & Le Labo Créatif -->
+            <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-5 hover:border-amber-500/40 transition">
+                <h3 class="text-amber-400 font-semibold text-lg flex items-center gap-2 mb-2">
+                    4. 🏛️ L'Agora & Le Labo Créatif
+                </h3>
+                <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                    <li><strong>Calendrier Culturel :</strong> Inscription aux ateliers et conférences.</li>
+                    <li><strong>Défis Mensuels :</strong> Concours de création avec vote de la communauté.</li>
+                </ul>
+            </div>
+
+            <!-- 5. Profil Pionnier & Pi Wallet -->
+            <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-5 hover:border-amber-500/40 transition">
+                <h3 class="text-amber-400 font-semibold text-lg flex items-center gap-2 mb-2">
+                    5. 👤 Profil Pionnier & Pi Wallet
+                </h3>
+                <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                    <li><strong>Auth Pi SDK :</strong> Connexion directe et sécurisée sans mot de passe.</li>
+                    <li><strong>Portfolio :</strong> Historique des créations et recommandations.</li>
+                    <li><strong>Badges :</strong> Progression (Novice ➔ Pionnier Éclaireur ➔ Mentor).</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 2: Document de Cadrage Technique -->
+    <section class="space-y-6 pt-4">
+        <h2 class="text-xl font-bold text-white flex items-center gap-2 border-l-4 border-amber-400 pl-3">
+            📄 Document de Cadrage Technique & Fonctionnel
+        </h2>
+
+        <div class="bg-gray-900/80 border border-gray-800 rounded-xl p-6 space-y-6">
+            
+            <!-- 1. UI/UX -->
+            <div class="space-y-2">
+                <h4 class="text-amber-400 font-semibold flex items-center gap-2">
+                    1. Directives d'Interface & Expérience Utilisateur (UI/UX)
+                </h4>
+                <p class="text-sm text-gray-300">
+                    • <strong>Design In-App Moderne :</strong> Interdiction des pop-ups natives type <code class="bg-gray-800 px-1 py-0.5 rounded text-amber-300">alert()</code> ou <code class="bg-gray-800 px-1 py-0.5 rounded text-amber-300">prompt()</code>. Utilisation obligatoire de modales et fenêtres de notification (toasts) sur mesure.<br>
+                    • <strong>Support RTL Obligatoire :</strong> Prise en charge native du basculement dynamique <code class="bg-gray-800 px-1 py-0.5 rounded text-amber-300">dir="rtl"</code> pour la langue arabe.
+                </p>
+            </div>
+
+            <!-- 2. Moteur IA -->
+            <div class="space-y-2 border-t border-gray-800 pt-4">
+                <h4 class="text-amber-400 font-semibold flex items-center gap-2">
+                    2. Intégration de l'IA DiGiT (Diamond Star Engine)
+                </h4>
+                <p class="text-sm text-gray-300">
+                    • <strong>Source de vérité :</strong> Le Livre Blanc / Document de conception constitue la base de connaissances prioritaire.<br>
+                    • <strong>Engagement :</strong> Système d'évaluation à 5 étoiles et partage sur chaque publication.<br>
+                    • <strong>Recommandations & Transparence :</strong> Analyse comportementale pour suggérer du contenu + stockage obligatoire de l'historique dans le profil.<br>
+                    • <strong>Notifications Intelligentes :</strong> Pilotage de l'envoi des messages au bon moment par l'IA.
+                </p>
+            </div>
+
+            <!-- 3. Sécurité & Pi SDK -->
+            <div class="space-y-2 border-t border-gray-800 pt-4">
+                <h4 class="text-amber-400 font-semibold flex items-center gap-2">
+                    3. Sécurité, Performance & Intégration Pi SDK
+                </h4>
+                <p class="text-sm text-gray-300">
+                    • <strong>Zero Trust & Confidentialité :</strong> Zéro donnée sensible ni clé privée stockée ou transmise.<br>
+                    • <strong>Optimisation Réseau :</strong> Application ultra-légère et réactive même à faible débit.<br>
+                    • <strong>Authentification Native :</strong> Reconnaissance immédiate via le Pi Browser sans création de compte redondante.<br>
+                    • <strong>Fallbacks :</strong> Réponses neutres et redirection vers le support humain en cas de dépassement des compétences de l'IA.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-xs text-gray-500 pt-6 border-t border-gray-800">
+        © 2026 DiGiT — Écosystème Décentralisé des Pionniers Pi Network
+    </footer>
+
+</body>
+</html>
